@@ -1,0 +1,2 @@
+解压命令：
+    cat xxx.tar.gz.* | tar -zxv

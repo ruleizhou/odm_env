@@ -6,5 +6,5 @@ else
     echo "Intall Tools "
     mkdir ~/.tools
     cp $install_dir/bin/* ~/.tools/ -rf
-    echo "export PATH=\$PATH:~/.tools/Ubuntu_bin"
+    echo "export PATH=\$PATH:~/.tools/Ubuntu_bin >> ~/.bashrc"
 fi

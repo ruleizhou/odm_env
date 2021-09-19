@@ -32,5 +32,6 @@ set hlsearch        "高亮搜索项"
 set whichwrap+=<,>,h,l
 set autoread
 set cursorline      "突出显示当前行"
+set clipboard=unnamed
 " 自动删除行尾空格
 autocmd BufWritePre *.c :%s/\s\+$//e

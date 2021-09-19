@@ -16,6 +16,7 @@ let g:Lf_RgConfig = [
         \ "--no-ignore",
         \ "--no-ignore-global",
         \ "--no-ignore-parent",
+        \ "--no-messages",
         \ "--follow"
     \ ]
 

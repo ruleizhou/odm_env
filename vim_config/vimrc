@@ -6,4 +6,5 @@ source ~/.vim/config/ctags.vim
 source ~/.vim/config/tagbar.vim
 source ~/.vim/config/airline.vim
 source ~/.vim/config/rainbow.vim
+source ~/.vim/config/mark.vim
 source ~/.vim/config/init.vim

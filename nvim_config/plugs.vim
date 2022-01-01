@@ -4,16 +4,19 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " Any valid git URL is allowed
-Plug 'https://github.com/universal-ctags/ctags.git'
-Plug 'https://github.com/ludovicchabant/vim-gutentags.git'
-Plug 'https://github.com/BurntSushi/ripgrep.git'
-Plug 'https://github.com/Yggdroot/LeaderF.git'
-Plug 'https://github.com/preservim/nerdtree.git'
-Plug 'https://github.com/preservim/tagbar.git'
+Plug 'universal-ctags/ctags.git'
+Plug 'ludovicchabant/vim-gutentags.git'
+Plug 'skywind3000/gutentags_plus.git'
+Plug 'BurntSushi/ripgrep.git'
+Plug 'Yggdroot/LeaderF.git'
+Plug 'preservim/nerdtree.git'
+Plug 'preservim/tagbar.git'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'luochen1990/rainbow'
+Plug 'inkarkat/vim-mark'
+Plug 'inkarkat/vim-ingo-library'
 
 " Initialize plugin system
 call plug#end()

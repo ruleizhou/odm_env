@@ -1,8 +1,14 @@
+" enable gtags module
+let g:gutentags_modules = ['ctags', 'gtags_cscope']
+
 " gutentags搜索工程目录的标志，碰到这些文件/目录名就停止向上一级目录递归 "
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.project']
 
 " 所生成的数据文件的名称 "
 let g:gutentags_ctags_tagfile = '.tags'
+
+" change focus to quickfix window after search (optional).
+let g:gutentags_plus_switch = 1
 
 " 将自动生成的 tags 文件全部放入 ~/.cache/tags 目录中，避免污染工程目录 "
 let s:vim_tags = expand('~/.cache/tags')

@@ -35,3 +35,9 @@ set cursorline      "突出显示当前行"
 set clipboard=unnamed
 " 自动删除行尾空格
 autocmd BufWritePre *.c :%s/\s\+$//e
+
+" Key mapping
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l

@@ -50,7 +50,7 @@ nnoremap <silent> <Leader>b :Leaderf buffer<CR>
 nnoremap <silent> <Leader>l :Leaderf function<CR>
 
 "模糊搜索，很强大的功能，迅速秒搜
-nnoremap <silent> <Leader>rg :Leaderf rg --no-ignore<CR>
+nnoremap <Leader>rg :<C-U><C-R>=printf("Leaderf rg %s", "")<CR>
 
 "关闭
 nnoremap <silent> <Leader>z :q<CR>
@@ -60,3 +60,6 @@ noremap <leader>gd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand
 noremap <leader>go :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
 noremap <leader>gn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
 noremap <leader>gp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
+noremap <leader>ga :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR><CR>
+noremap <leader>gc :<C-U><C-R>=printf("Leaderf! rg -e %s -g *.h -g *.cpp -g *.c", expand("<cword>"))<CR><CR>
+noremap <leader>gm :<C-U><C-R>=printf("Leaderf! rg -e %s -g *.mk -g *.bp -g *.sh -g *.rc -g *.py -g *.pl", expand("<cword>"))<CR><CR>
